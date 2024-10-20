@@ -1,0 +1,14 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: ccproject3
+spec:
+  parallelism: 3
+  completions: 3
+  ttlSecondsAfterFinished: 100
+  template:
+    spec:
+      containers:
+      - name: ccproject3-ec
+        image: notasuspiciousaccount/ccproject3:latest
+      restartPolicy: OnFailure
