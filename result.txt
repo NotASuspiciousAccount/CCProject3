@@ -1,0 +1,6 @@
+Words in IF.txt: 287
+Words in AlwaysRememberUsThisWay.txt: 223
+Total words: 510
+Three most frequent words in IF.txt: [('you', 14), ('If', 13), ('can', 12)]
+Three most frequent words in AlwaysRememberUsThisWay.txt, splitting contractions: [('I', 15), ('the', 12), ('will', 8)]
+This machine's IP address: 127.0.0.1
